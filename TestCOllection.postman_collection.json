@@ -9,14 +9,7 @@
 			"name": "localhost:8080/test/1234567890876543",
 			"request": {
 				"auth": {
-					"type": "basic",
-					"basic": [
-						{
-							"key": "password",
-							"value": "HerJe1970",
-							"type": "string"
-						}
-					]
+					"type": "noauth"
 				},
 				"method": "POST",
 				"header": [],
@@ -26,7 +19,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/C:/Users/marcel/Desktop/demo/Camt.053.zip"
+							"src": "/C:/Users/marcel/Desktop/ImportService/out.zip"
 						}
 					]
 				},
