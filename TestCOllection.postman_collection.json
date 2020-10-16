@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "e41bb8b5-836b-4d77-a139-003614881614",
+		"name": "TestCOllection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/test/1234567890876543",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "HerJe1970",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/marcel/Desktop/demo/Camt.053.zip"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8080/test/1234567890876543",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"test",
+						"1234567890876543"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
